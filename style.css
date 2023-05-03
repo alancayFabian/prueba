@@ -1,0 +1,79 @@
+header{
+    margin: -8px;
+    background-color: blue;
+}
+header input{
+    float: right;
+    margin: 30px;
+    border-radius: 7px;
+    border-color: transparent;
+    height: 20px;
+    color: blue;
+}
+header  ::placeholder{
+    color: blue;
+}
+body{
+    background-color: lightgray;
+}
+.conteiner-Perfil{
+    display: flex;
+    margin: 30px;
+    background-color: white;
+    height: 250px;
+    border-radius: 25px;
+}
+.div-1-perfil{
+    flex: 30%;
+    text-align: center;
+}
+.div-2-perfil{
+    flex: 60%;
+}
+.div-3-perfil{
+    flex: 10%;
+}
+#foto-perfil{
+   height: 80%;
+   margin: 17px;
+   border-radius: 50%; 
+   border: 4px solid blue;
+   padding: 4px;
+}
+.div-3-perfil button{
+    float: right;
+    margin-top: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+    width: 100px;
+    border-color: transparent;
+    background-color: blue;
+    color: white;
+}
+
+
+.conteiner-publi-sobremi
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.publi
+{
+    
+    flex: 70%;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: black;
+    height: 1100px;
+}
+.sobremi
+{
+    flex: 30%;
+    border-left: 10px;
+    border-radius: 25px;
+    margin-left:10px ;
+    background-color: white;
+    height: 400px;
+}
